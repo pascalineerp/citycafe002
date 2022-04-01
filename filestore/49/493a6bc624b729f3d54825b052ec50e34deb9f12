@@ -1,0 +1,39 @@
+.o_company_1_layout {
+                font-family: Raleway;
+                &.o_clean_footer {
+                    border-top: 3px solid #5a4eaf;
+                    h4 {
+                        color: #5a4eaf;
+                    }
+                    .pagenumber {
+                        border: 3px solid #0797af;
+                        background-color: #5a4eaf;
+                    }
+                }
+                &.o_report_layout_bold {
+                    h1, h2, h3 {
+                        color: #0797af;
+                    }
+                    strong {
+                        color: #5a4eaf;
+                    }
+                    table {
+                       thead {
+                           color: #5a4eaf;
+                           tr th {
+                                border-top: 3px solid #5a4eaf !important;
+                            }
+                        }
+                        tbody {
+                            tr:last-child td {
+                                border-bottom: 3px solid #5a4eaf;
+                            }
+                        }
+                    }
+                    #total {
+                        strong {
+                            color: #5a4eaf;
+                        }
+                    }
+                }
+            }
